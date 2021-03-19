@@ -1,0 +1,7 @@
+artifactory: artifactory
+distribution: distribution
+pipelines:
+  name: template_release_to_edge_node    
+inputBuild:
+  name1: template_go_build
+  name2: template_npm_build
